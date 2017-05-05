@@ -30,4 +30,4 @@ console.log(list.append("This is first node!"));
 console.log(list.append("This is second node!"));
 console.log(list.append("This is third node!"));
 console.log(list.append("This is fouth node!"));
-console.log(list.append("This is fifth node!"));
+
