@@ -54,3 +54,5 @@ console.log(addElement("a", 0));
 console.log(addElement("b", 1));
 console.log(addElement("c", 2));
 console.log(addElement("d", 1));
+console.log(addElement("e", 0));
+console.log(addElement("f", 5));

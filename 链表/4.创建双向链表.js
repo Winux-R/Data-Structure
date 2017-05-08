@@ -36,3 +36,4 @@ function addElement(element) {
 console.log(addElement("This is first node!"));
 console.log(addElement("This is second node!"));
 console.log(addElement("This is third node!"));
+console.log(addElement("This is fouth node!"));

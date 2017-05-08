@@ -78,4 +78,9 @@ function deleteElement(linkList, position) {
 console.log(addElement("a", 0));
 console.log(addElement("b", 1));
 console.log(addElement("c", 2));
+console.log(addElement("d", 3));
+console.log(addElement("e", 4));
+console.log(addElement("f", 5));
 console.log(deleteElement(head, 0));
+console.log(deleteElement(head, 5));
+console.log(deleteElement(head, 2));
