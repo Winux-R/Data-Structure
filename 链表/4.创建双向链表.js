@@ -24,13 +24,12 @@ function addElement(element) {
         let doubleLinkList = head;
         while(doubleLinkList.next !== null) {
             doubleLinkList = doubleLinkList.next;
-
         }
         doubleLinkList.next = newNode;
         newNode.prev = doubleLinkList;
         tail = newNode;
     }
-    length++
+    length++;
     return head;
 }
 

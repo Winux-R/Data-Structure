@@ -1,16 +1,15 @@
 /**
  * Created by Jinxin on 2017/5/8.
  */
-
 let head = null;
 let tail = null;
 let length = 0;
 
-function createNode(element) {
+function createNode (element) {
     let node = {
         element: element,
         next: null,
-        prve: null
+        prev: null
     }
     return node;
 }
@@ -22,7 +21,6 @@ function addElement(element, position) {
         tail = newNode;
     } else {
         let doubleLinkList = head;
-        let previous = {};
         if (position === 0) {
             newNode.next = doubleLinkList;
             doubleLinkList.prev = newNode;
@@ -30,7 +28,8 @@ function addElement(element, position) {
             tail = newNode;
         } else {
             let index = 0;
-            while(index < position ) {
+            let previous = {};
+            while(index < position) {
                 previous = doubleLinkList;
                 if (doubleLinkList.next !== null) {
                     doubleLinkList = doubleLinkList.next;
@@ -38,19 +37,45 @@ function addElement(element, position) {
                 index++;
             }
             if (doubleLinkList.next !== null) {
+                doubleLinkList.prev = newNode;
                 newNode.next = doubleLinkList;
-                doubleLinkList.prve = newNode;
             } else {
-                tail = doubleLinkList
+                tail = newNode;
             }
             previous.next = newNode;
-            newNode.prve = previous;
+            newNode.prev = previous;
         }
     }
     length++;
     return head;
 }
+
+function deleteElement(linkList, position) {
+    if (position === 0) {
+        head = linkList.next;
+        head.prev = null;
+    } else {
+        let doubleLinkList = linkList;
+        let index = 0;
+        while (index < position) {
+            previous = doubleLinkList;
+            if (doubleLinkList.next !== null) {
+                doubleLinkList = doubleLinkList.next;
+            }
+            index++;
+        }
+        if (doubleLinkList.next !== null) {
+            previous.next = doubleLinkList.next;
+            doubleLinkList.next.prev = previous;
+        } else {
+            previous.next = null;
+            tail = previous;
+        }
+    }
+    return head;
+}
+
 console.log(addElement("a", 0));
 console.log(addElement("b", 1));
 console.log(addElement("c", 2));
-console.log(addElement("d", 1));
+console.log(deleteElement(head, 0));
