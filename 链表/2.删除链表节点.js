@@ -5,7 +5,7 @@
 let length = 0;
 let head = null;
 
-function node (element) {
+function createNode (element) {
     let node = {
         nodeElement: element,
         next: null
@@ -13,8 +13,8 @@ function node (element) {
     return node;
 }
 
-function createNode (element) {
-    let listNode = node(element);
+function addElement (element) {
+    let listNode = createNode(element);
     if (head === null) {
         head = listNode;
     } else {
@@ -28,7 +28,7 @@ function createNode (element) {
     return head;
 }
 
-function deleteNode (linkList, position) {
+function deleteElement (linkList, position) {
     let linkListCopy = linkList;
     if (linkListCopy === null) {
         console.log("该链表为空");
@@ -50,11 +50,11 @@ function deleteNode (linkList, position) {
     head = linkList;
     return head;
 }
-createNode("a");
-createNode("b");
-createNode("c");
-console.log(createNode("d"));
-console.log(deleteNode(head, 0));
-console.log(deleteNode(head, 2));
+addElement("a");
+addElement("b");
+addElement("c");
+console.log(addElement("d"));
+console.log(deleteElement(head, 0));
+console.log(deleteElement(head, 2));
 
 

@@ -12,27 +12,29 @@ function createNode(element) {
     return node;
 }
 
-function addElement(node, position) {
+function addElement(element, position) {
     if (head === null) {
-        head = createNode(node);
+        head = createNode(element);
     } else {
-        let newNode = createNode(node);
+        let newNode = createNode(element);
         if (position === 0) {
             newNode.next = head;
             head = newNode;
         } else {
-            let newNode = createNode(node);
+            let newNode = createNode(element);
             let linkList = head;
+            let previous = {};
             let index = 0;
             while (index < position) {
+                previous = linkList;
                 if (linkList.next !== null) {
                     linkList = linkList.next;
                 }
                 index++;
             }
             if (linkList.next !== null) {
-                newNode.next = linkList.next;
-                linkList.next = newNode;
+                newNode.next = linkList;
+                previous.next = newNode;
             } else {
                 linkList.next = newNode;
             }
@@ -46,4 +48,4 @@ function addElement(node, position) {
 console.log(addElement("a", 0));
 console.log(addElement("b", 1));
 console.log(addElement("c", 2));
-console.log(addElement("d", 0));
+console.log(addElement("d", 1));
