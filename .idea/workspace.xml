@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65c72e0e-7d63-4cf0-b14c-2a39040a1638" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/字典/1.创建字典.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/散列表/1.创建散列表.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/树/1.创建二叉树.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/树/2.插入二叉树.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Data-Structure.iws" />
@@ -115,8 +113,8 @@
       <file leaf-file-name="1.创建散列表.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/散列表/1.创建散列表.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+            <state relative-caret-position="210">
+              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -125,8 +123,20 @@
       <file leaf-file-name="1.创建二叉树.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/树/1.创建二叉树.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+            <state relative-caret-position="105">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#42#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2.插入二叉树.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/树/2.插入二叉树.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
               </folding>
@@ -167,6 +177,7 @@
         <option value="$PROJECT_DIR$/散列表/2.散列表和散列集合.js" />
         <option value="$PROJECT_DIR$/散列表/1.创建散列表.js" />
         <option value="$PROJECT_DIR$/树/1.创建树.js" />
+        <option value="$PROJECT_DIR$/树/2.插入二叉树.js" />
         <option value="$PROJECT_DIR$/树/1.创建二叉树.js" />
       </list>
     </option>
@@ -258,9 +269,6 @@
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunManager" selected="Node.js.1.创建二叉树.js">
-    <configuration default="false" name="创建集合.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/集合/1.创建集合.js" working-dir="$PROJECT_DIR$/集合">
-      <method />
-    </configuration>
     <configuration default="false" name="1.创建字典.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="1.创建字典.js" working-dir="$PROJECT_DIR$/字典">
       <method />
     </configuration>
@@ -271,6 +279,9 @@
       <method />
     </configuration>
     <configuration default="false" name="1.创建二叉树.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="1.创建二叉树.js" working-dir="$PROJECT_DIR$/树">
+      <method />
+    </configuration>
+    <configuration default="false" name="2.插入二叉树.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="2.插入二叉树.js" working-dir="$PROJECT_DIR$/树">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -327,19 +338,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.创建集合.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.1.创建字典.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.2.利用已创建Dictionary类构建电话簿.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.创建散列表.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.1.创建二叉树.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.1.创建字典.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.2.利用已创建Dictionary类构建电话簿.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.创建散列表.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.1.创建二叉树.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.2.插入二叉树.js" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Node.js.1.创建二叉树.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.创建散列表.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.2.利用已创建Dictionary类构建电话簿.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.1.创建字典.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.创建集合.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.2.插入二叉树.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.创建散列表.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.2.利用已创建Dictionary类构建电话簿.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.1.创建字典.js" />
       </list>
     </recent_temporary>
   </component>
@@ -357,12 +368,12 @@
       <workItem from="1493966506145" duration="8795000" />
       <workItem from="1494409523280" duration="2400000" />
       <workItem from="1494467572962" duration="16684000" />
-      <workItem from="1495593760817" duration="2286000" />
+      <workItem from="1495593760817" duration="6664000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34320000" />
+    <option name="totallyTimeSpent" value="38698000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -372,7 +383,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.38297874" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="-1440" y="22" width="1440" height="878" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.38297874" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="-1440" y="22" width="1440" height="878" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -405,8 +416,32 @@
           <line>57</line>
           <option name="timeStamp" value="43" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/树/2.插入二叉树.js</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/树/2.插入二叉树.js</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/树/2.插入二叉树.js</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/树/2.插入二叉树.js</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="58" />
+      <option name="time" value="97" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="NodeJSConfigurationType">
@@ -601,16 +636,26 @@
     <entry file="file://$PROJECT_DIR$/散列表/2.散列表和散列集合.js" />
     <entry file="file://$PROJECT_DIR$/散列表/1.创建散列表.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        <state relative-caret-position="210">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/树/2.插入二叉树.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/树/1.创建二叉树.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        <state relative-caret-position="105">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
           </folding>
