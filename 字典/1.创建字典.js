@@ -45,6 +45,7 @@ function Dictionary() {
     }
 }
 let dictionary = new Dictionary();
+
 console.log(dictionary.has("A"));
 console.log(dictionary.set("B", "b"));
 console.log(dictionary.set("C", "c"));
