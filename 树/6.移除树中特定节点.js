@@ -48,7 +48,7 @@ function removeNode(node, key) {
                 return node;
             }else if (node.rightNode !== null && node.leftNode !== null) {
                 node.key = findRightMinNode(node.rightNode);
-                node.leftNode = removeNode(node.rightNode, node.key);
+                removeNode(node.rightNode, node.key);
                 return node;
             }
         }
