@@ -64,8 +64,8 @@
       <file leaf-file-name="6.移除树中特定节点.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/树/6.移除树中特定节点.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+            <state relative-caret-position="426">
+              <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
               </folding>
@@ -399,12 +399,12 @@
       <workItem from="1494467572962" duration="16684000" />
       <workItem from="1495593760817" duration="7250000" />
       <workItem from="1495675937958" duration="4422000" />
-      <workItem from="1495762316601" duration="15689000" />
+      <workItem from="1495762316601" duration="15767000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59395000" />
+    <option name="totallyTimeSpent" value="59473000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -464,18 +464,6 @@
           <line>40</line>
           <properties />
           <option name="timeStamp" value="108" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/树/6.移除树中特定节点.js</url>
-          <line>63</line>
-          <properties />
-          <option name="timeStamp" value="117" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/树/6.移除树中特定节点.js</url>
-          <line>59</line>
-          <properties />
-          <option name="timeStamp" value="118" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="119" />
@@ -927,8 +915,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/树/6.移除树中特定节点.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+        <state relative-caret-position="426">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
           </folding>
