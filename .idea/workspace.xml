@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65c72e0e-7d63-4cf0-b14c-2a39040a1638" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/字典/1.创建字典.js" afterPath="$PROJECT_DIR$/字典/1.创建字典.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/树/4.搜索树的最大值、最小值.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Data-Structure.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,15 +50,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="4.集合差集.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/集合/4.集合差集.js">
+      <file leaf-file-name="4.搜索树的最大值、最小值.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/树/4.搜索树的最大值、最小值.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="62" />
+            <state relative-caret-position="237">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
-                <element signature="e#611#725#0" expanded="false" />
-                <element signature="e#660#719#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -85,7 +84,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1.创建字典.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="1.创建字典.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/字典/1.创建字典.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="246">
@@ -110,8 +109,8 @@
       <file leaf-file-name="1.创建二叉树.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/树/1.创建二叉树.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+            <state relative-caret-position="351">
+              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="47" selection-end-column="39" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
               </folding>
@@ -122,7 +121,7 @@
       <file leaf-file-name="3.中序、先序、后序遍历.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/树/3.中序、先序、后序遍历.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
+            <state relative-caret-position="1239">
               <caret line="61" column="3" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
@@ -179,6 +178,7 @@
         <option value="$PROJECT_DIR$/树/3.中序遍历.js" />
         <option value="$PROJECT_DIR$/散列表/1.创建散列表.js" />
         <option value="$PROJECT_DIR$/字典/1.创建字典.js" />
+        <option value="$PROJECT_DIR$/树/4.搜索树的最大值、最小值.js" />
       </list>
     </option>
   </component>
@@ -296,10 +296,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="Node.js.3.中序遍历.js">
-    <configuration default="false" name="2.利用已创建Dictionary类构建电话簿.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="2.利用已创建Dictionary类构建电话簿.js" working-dir="$PROJECT_DIR$/字典">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.4.搜索树的最大值、最小值.js">
     <configuration default="false" name="创建散列表.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/散列表/1.创建散列表.js" working-dir="$PROJECT_DIR$/散列表">
       <method />
     </configuration>
@@ -310,6 +307,9 @@
       <method />
     </configuration>
     <configuration default="false" name="3.中序遍历.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/树/3.中序、先序、后序遍历.js" working-dir="$PROJECT_DIR$/树">
+      <method />
+    </configuration>
+    <configuration default="false" name="4.搜索树的最大值、最小值.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="4.搜索树的最大值、最小值.js" working-dir="$PROJECT_DIR$/树">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -366,19 +366,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.2.利用已创建Dictionary类构建电话簿.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.创建散列表.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.1.创建二叉树.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.2.插入二叉树.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.3.中序遍历.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.创建散列表.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.1.创建二叉树.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.2.插入二叉树.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.3.中序遍历.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.4.搜索树的最大值、最小值.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.3.中序遍历.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.1.创建二叉树.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.2.插入二叉树.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.创建散列表.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.2.利用已创建Dictionary类构建电话簿.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.4.搜索树的最大值、最小值.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.3.中序遍历.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.1.创建二叉树.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.2.插入二叉树.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.创建散列表.js" />
       </list>
     </recent_temporary>
   </component>
@@ -398,12 +398,12 @@
       <workItem from="1494467572962" duration="16684000" />
       <workItem from="1495593760817" duration="7250000" />
       <workItem from="1495675937958" duration="4422000" />
-      <workItem from="1495762316601" duration="6102000" />
+      <workItem from="1495762316601" duration="8076000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49808000" />
+    <option name="totallyTimeSpent" value="51782000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -814,16 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/集合/3.集合并集.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/集合/1.创建集合.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -844,30 +834,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/字典/2.利用已创建Dictionary类构建电话簿.js" />
     <entry file="file://$PROJECT_DIR$/散列表/2.散列表和散列集合.js" />
-    <entry file="file://$PROJECT_DIR$/树/1.创建二叉树.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/树/2.查找二叉树.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
           <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/树/3.中序、先序、后序遍历.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="61" column="3" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
           </folding>
@@ -886,6 +856,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
           <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/集合/3.集合并集.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/树/3.中序、先序、后序遍历.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1239">
+          <caret line="61" column="3" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/树/1.创建二叉树.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="47" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/树/4.搜索树的最大值、最小值.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
           </folding>
