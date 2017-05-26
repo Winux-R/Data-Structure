@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65c72e0e-7d63-4cf0-b14c-2a39040a1638" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/树/5.搜索特定的值.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/树/6.移除树中特定节点.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Data-Structure.iws" />
@@ -26,18 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="1.创建集合.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/集合/1.创建集合.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-              <folding>
-                <element signature="n#!!doc;n#Set#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="3.集合并集.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/集合/3.集合并集.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -53,8 +41,8 @@
       <file leaf-file-name="4.搜索树的最大值、最小值.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/树/4.搜索树的最大值、最小值.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="63" selection-end-column="39" />
+            <state relative-caret-position="84">
+              <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
               </folding>
@@ -62,11 +50,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="5.搜索特定的值.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="5.搜索特定的值.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/树/5.搜索特定的值.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+            <state relative-caret-position="210">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#42#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="6.移除树中特定节点.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/树/6.移除树中特定节点.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="82" column="27" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
               </folding>
@@ -180,6 +180,7 @@
         <option value="$PROJECT_DIR$/字典/1.创建字典.js" />
         <option value="$PROJECT_DIR$/树/4.搜索树的最大值、最小值.js" />
         <option value="$PROJECT_DIR$/树/5.搜索特定的值.js" />
+        <option value="$PROJECT_DIR$/树/6.移除树中特定节点.js" />
       </list>
     </option>
   </component>
@@ -297,11 +298,8 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="Node.js.5.搜索特定的值.js">
+  <component name="RunManager" selected="Node.js.6.移除树中特定节点.js">
     <configuration default="false" name="1.创建二叉树.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="1.创建二叉树.js" working-dir="$PROJECT_DIR$/树">
-      <method />
-    </configuration>
-    <configuration default="false" name="2.插入二叉树.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/树/2.查找二叉树.js" working-dir="$PROJECT_DIR$/树">
       <method />
     </configuration>
     <configuration default="false" name="3.中序遍历.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/树/3.中序、先序、后序遍历.js" working-dir="$PROJECT_DIR$/树">
@@ -311,6 +309,9 @@
       <method />
     </configuration>
     <configuration default="false" name="5.搜索特定的值.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="5.搜索特定的值.js" working-dir="$PROJECT_DIR$/树">
+      <method />
+    </configuration>
+    <configuration default="false" name="6.移除树中特定节点.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="6.移除树中特定节点.js" working-dir="$PROJECT_DIR$/树">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -368,18 +369,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Node.js.1.创建二叉树.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.2.插入二叉树.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.3.中序遍历.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.4.搜索树的最大值、最小值.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.5.搜索特定的值.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.3.中序遍历.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.4.搜索树的最大值、最小值.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.5.搜索特定的值.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.6.移除树中特定节点.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.5.搜索特定的值.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.4.搜索树的最大值、最小值.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.3.中序遍历.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.1.创建二叉树.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.2.插入二叉树.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.6.移除树中特定节点.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.5.搜索特定的值.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.4.搜索树的最大值、最小值.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.3.中序遍历.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.1.创建二叉树.js" />
       </list>
     </recent_temporary>
   </component>
@@ -399,12 +400,12 @@
       <workItem from="1494467572962" duration="16684000" />
       <workItem from="1495593760817" duration="7250000" />
       <workItem from="1495675937958" duration="4422000" />
-      <workItem from="1495762316601" duration="10162000" />
+      <workItem from="1495762316601" duration="15557000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53868000" />
+    <option name="totallyTimeSpent" value="59263000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -414,11 +415,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.38297874" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="-1440" y="22" width="1440" height="878" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.38297874" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="-1440" y="22" width="1440" height="878" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="-1440" y="22" width="1440" height="878" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="-1440" y="22" width="1440" height="878" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -465,8 +466,20 @@
           <properties />
           <option name="timeStamp" value="108" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/树/6.移除树中特定节点.js</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/树/6.移除树中特定节点.js</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="109" />
+      <option name="time" value="119" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="NodeJSConfigurationType">
@@ -893,20 +906,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/树/4.搜索树的最大值、最小值.js">
+    <entry file="file://$PROJECT_DIR$/树/5.搜索特定的值.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="63" selection-end-column="39" />
+        <state relative-caret-position="210">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/树/5.搜索特定的值.js">
+    <entry file="file://$PROJECT_DIR$/树/4.搜索树的最大值、最小值.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+        <state relative-caret-position="84">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/树/6.移除树中特定节点.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="82" column="27" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
           </folding>
