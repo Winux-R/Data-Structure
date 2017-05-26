@@ -29,12 +29,51 @@ function insertNode (node, newNode) {
     }
 }
 
+/**
+ *
+ * @param node
+ * 中序遍历
+ */
+function inOrderTraverse (node) {
+    if (node !== null) {
+        inOrderTraverse(node.leftNode);
+        console.log(node.key);
+        inOrderTraverse(node.rightNode);
+    }
+}
+
+/**
+ *
+ * @param key
+ * 先序遍历
+ */
+function preOrderTraverse (node) {
+    if (node !== null) {
+        console.log(node.key);
+        preOrderTraverse(node.leftNode);
+        preOrderTraverse(node.rightNode);
+    }
+}
+
+/**
+ *
+ * @param key
+ * 后序遍历
+ */
+function postOrderTraverse (node) {
+    if (node !== null) {
+        postOrderTraverse(node.leftNode);
+        postOrderTraverse(node.rightNode);
+        console.log(node.key);
+    }
+}
+
 function createBinarySearchTree (key) {
     let newNode = createNode(key);
     if (root === null) {
         root = newNode;
     } else {
-       insertNode(root, newNode);
+        insertNode(root, newNode);
     }
     return root;
 }
@@ -43,3 +82,6 @@ console.log(createBinarySearchTree(6));
 console.log(createBinarySearchTree(7));
 console.log(createBinarySearchTree(2));
 console.log(createBinarySearchTree(4));
+console.log(inOrderTraverse(root));
+console.log(preOrderTraverse(root));
+console.log(postOrderTraverse(root));

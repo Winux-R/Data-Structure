@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65c72e0e-7d63-4cf0-b14c-2a39040a1638" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/树/3.中序遍历.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/树/2.插入二叉树.js" afterPath="$PROJECT_DIR$/树/2.查找二叉树.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/树/3.中序、先序、后序遍历.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/树/3.中序遍历.js" afterPath="" />
     </list>
     <ignored path="Data-Structure.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -121,11 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="3.中序遍历.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/树/3.中序遍历.js">
+      <file leaf-file-name="3.中序、先序、后序遍历.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/树/3.中序、先序、后序遍历.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+            <state relative-caret-position="237">
+              <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
               </folding>
@@ -283,7 +282,7 @@
     <configuration default="false" name="2.插入二叉树.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/树/2.查找二叉树.js" working-dir="$PROJECT_DIR$/树">
       <method />
     </configuration>
-    <configuration default="false" name="3.中序遍历.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="3.中序遍历.js" working-dir="$PROJECT_DIR$/树">
+    <configuration default="false" name="3.中序遍历.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/树/3.中序、先序、后序遍历.js" working-dir="$PROJECT_DIR$/树">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -372,12 +371,12 @@
       <workItem from="1494467572962" duration="16684000" />
       <workItem from="1495593760817" duration="7250000" />
       <workItem from="1495675937958" duration="4422000" />
-      <workItem from="1495762316601" duration="2230000" />
+      <workItem from="1495762316601" duration="5864000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45936000" />
+    <option name="totallyTimeSpent" value="49570000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -421,19 +420,25 @@
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/树/3.中序遍历.js</url>
-          <line>16</line>
+          <url>file://$PROJECT_DIR$/树/3.中序、先序、后序遍历.js</url>
+          <line>38</line>
           <properties />
-          <option name="timeStamp" value="97" />
+          <option name="timeStamp" value="106" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/树/3.中序遍历.js</url>
-          <line>17</line>
+          <url>file://$PROJECT_DIR$/树/3.中序、先序、后序遍历.js</url>
+          <line>39</line>
           <properties />
-          <option name="timeStamp" value="98" />
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/树/3.中序、先序、后序遍历.js</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="108" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="102" />
+      <option name="time" value="109" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="NodeJSConfigurationType">
@@ -520,7 +525,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/树/3.中序遍历.js">
+    <entry file="file://$PROJECT_DIR$/树/3.中序、先序、后序遍历.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
@@ -841,10 +846,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/树/3.中序遍历.js">
+    <entry file="file://$PROJECT_DIR$/树/3.中序、先序、后序遍历.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+        <state relative-caret-position="237">
+          <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
           </folding>
