@@ -29,6 +29,7 @@ function HashTable() {
     };
 }
 let hashTable = new HashTable();
+
 console.log(hashTable.put("Victor", "victor"));
 console.log(hashTable.get("Victor"));
 console.log(hashTable.delete("Victor"));
