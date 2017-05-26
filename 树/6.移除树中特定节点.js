@@ -74,7 +74,6 @@ function createBinarySearchTree (key) {
     }
     return root;
 }
-
 createBinarySearchTree(10);
 createBinarySearchTree(5);
 createBinarySearchTree(15);
